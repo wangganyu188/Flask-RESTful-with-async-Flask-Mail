@@ -30,7 +30,7 @@ You can start the application via the ```run.py``` module:
 ```bash
 python run.py
 ```
-To send a default email you can point your browser to ```http://127.0.0.1:5000/0.1/send_email/``` or you can use GET paramaters to customize the recipients and subject line:
+You can use GET parameters to customize the recipients and subject line:
 ```
 http://127.0.0.1:5000/0.1/send_email/?recipients=[%27target_address@email.com%27]&subject=a%20simple%20email%20test
 
