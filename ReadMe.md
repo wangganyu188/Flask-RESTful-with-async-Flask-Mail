@@ -24,7 +24,11 @@ virtualenv ~/python_virtual_env/flask_mail_example_venv
 source ~/python_virtual_env/flask_mail_example_venv/bin/activate
 ```
 
-##### Running the application
+##### Installing the requirements
+```bash
+pip install -r reequirements.txt
+```
+
 ##### Running the application
 You can start the application via the ```run.py``` module:
 ```bash
